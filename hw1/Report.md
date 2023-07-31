@@ -1,6 +1,6 @@
 # Weekend Project 1
 
-Team members: Danny, Nadina and Georges
+Team members: Danny and Nadina
 
 **Contract Address:**
 0x697836894fCA817717d6dc050CB1469ca3ea147C
