@@ -1,4 +1,4 @@
-# Weekend Project 1
+# Weekend Project 2
 
 Team members: Danny, Nadina, Armando, Mahmoud
 
