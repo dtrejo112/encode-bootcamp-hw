@@ -131,3 +131,12 @@ State Changes
 - Vote was casted for proposal 1
 - Proposal one count was inremented
 
+**Second Transaction:**
+https://sepolia.etherscan.io/tx/0x75a725df86393731c93027dc0801022c1e5bed5921333217e6fd4d2ac0eeee98
+
+State Changes 
+- Vote was casted for proposal 1 with no amount
+- This happened because I set the target block number to one where no one had voting power so I messed up
+
+There were no other state changes if no votes are casted, the query part would only read the from the blockchain but not modify the state, I realized I had to do the target block number differently! I should have minted tokens to addresses to give them all voting power then use the block number after that to make sure everyone had the appropriate voting power!
+
